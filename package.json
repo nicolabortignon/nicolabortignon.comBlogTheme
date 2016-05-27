@@ -1,0 +1,23 @@
+{
+  "name": "nicola-bortignon-blog",
+  "version": "1.0.0",
+  "description": "Theme for wordpress",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.12.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolabortignon/nicolabortignon.comBlogTheme.git"
+  },
+  "author": "Nicola Bortignon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolabortignon/nicolabortignon.comBlogTheme/issues"
+  },
+  "homepage": "https://github.com/nicolabortignon/nicolabortignon.comBlogTheme#readme"
+}
