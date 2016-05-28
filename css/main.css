@@ -1246,52 +1246,6 @@ pre {
 	padding-top: 20px;
 }
 
-#canvas:before,
-#header:before,
-#page:before,
-#footer:before,
-footer:before,
-.meta-row:before,
-.clear:before,
-#canvas:after,
-#header:after,
-#page:after,
-#footer:after,
-footer:after,
-.meta-row:after,
-.clear:after {
-    content: "";
-    display: table;
-}
-
-Pseudo::after element #canvas:before,
-#header:before,
-#page:before,
-#footer:before,
-footer:before,
-.meta-row:before,
-.clear:before,
-#canvas:after,
-#header:after,
-#page:after,
-#footer:after,
-footer:after,
-.meta-row:after,
-.clear:after {
-    content: "";
-    display: table
-}
-
-#canvas:after,
-#header:after,
-#page:after,
-#footer:after,
-footer:after,
-.meta-row:after,
-.clear:after {
-    clear: both
-}
-
 #footer {
     padding: 15px 27px;
     overflow-x: hidden
@@ -1370,6 +1324,55 @@ article .meta a {
     float: right;
     text-align: right;
 }
+
+
+#canvas:before,
+#header:before,
+#page:before,
+#footer:before,
+footer:before,
+.meta-row:before,
+.clear:before,
+#canvas:after,
+#header:after,
+#page:after,
+#footer:after,
+footer:after,
+.meta-row:after,
+.clear:after {
+    content: "";
+    display: table;
+    padding: 0px;
+}
+
+Pseudo::after element #canvas:before,
+#header:before,
+#page:before,
+#footer:before,
+footer:before,
+.meta-row:before,
+.clear:before,
+#canvas:after,
+#header:after,
+#page:after,
+#footer:after,
+footer:after,
+.meta-row:after,
+.clear:after {
+    content: "";
+    display: table
+}
+
+#canvas:after,
+#header:after,
+#page:after,
+#footer:after,
+footer:after,
+.meta-row:after,
+.clear:after {
+    clear: both
+}
+
 
 /* ==========================================================================
    Print styles
